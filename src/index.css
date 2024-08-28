@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* src/index.css */
+@media (max-width: 768px) {
+  .login-image, .register-image {
+    display: none;
+  }
+
+  .ant-col {
+    padding: 0 20px !important;
+  }
+
+  .ant-btn {
+    font-size: 14px !important;
+    height: 45px !important;
+  }
+
+  .ant-form-item-label > label {
+    font-size: 14px !important;
+  }
+
+  .ant-input {
+    font-size: 14px !important;
+    height: 40px !important;
+  }
+
+  .ant-typography {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .ant-typography {
+    font-size: 22px !important;
+  }
+}

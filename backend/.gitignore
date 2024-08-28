@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Directorio de dependencias
+node_modules/
+
+# Archivos de configuración del entorno
+.env
+
+# Cachés de módulos
+*.cache
+
+# Directorios de bases de datos locales
+/data
+/db
+
+# Configuraciones del editor
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
